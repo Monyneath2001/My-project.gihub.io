@@ -1,0 +1,12 @@
+img{
+    width: 500px;
+    height: 600px;
+}
+p{
+    font-size: 25px;
+    color: #171716;
+}
+body{
+    background-color: lab(86.94% -15.87 -4.7);
+    font-family: Arial, sans-serif;
+}

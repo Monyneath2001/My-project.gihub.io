@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    
+<link rel="stylesheet" href="About%20me_files/about-me.css"></head>
+
+<body>
+    <h1 style="color: blue;font-size: 45px;">About me</h1>
+    <p>My name is Rottha Monyneath, and I’m from Siem Reap, Cambodia. I graduated with a major in Banking and Finance.
+        While my background is in finance, I’m always open to exploring new skills and interests beyond my field.
+
+        In my free time, I enjoy listening to Khmer podcasts because they help me stay informed and connected to local
+        topics. I also love watching Korean dramas—they’re fun, emotional, and a great way to unwind. Another hobby I
+        enjoy is listening to motivational songs, which give me positive energy and help me stay focused on my goals.
+
+        Overall, I’m someone who enjoys learning, staying inspired, and making the most of every opportunity.
+    </p>
+
+<img src="About%20me_files/photo_2025-03-13_08-38-06.jpg" alt="">
+<table border="3">
+    <tbody><tr>
+        <th style="color: blue; style;">Day</th>
+        <th style="color: blueviolet;">Monday</th>
+        <th style="color: chocolate;">Tuesday</th>
+        <th style="color: darkgreen;">Wednesday</th>  
+        <th style="color: hotpink;">Thursday</th>
+        <th style="color: slateblue;">Friday</th>
+        <th style="color: maroon;">Saturday</th>
+        <th style="color: tomato;">Sunday</th>
+
+
+    </tr>
+    <tr>
+        <td style="font-size: 15px;">Activities</td>
+        <td style="font-size: 15px;">Reading Book</td>
+        <td style="font-size: 15px;">listening to Podcast</td>
+        <td style="font-size: 15px;">Watching Korean Drama</td>
+        <td style="font-size: 15px;">Listening to Motivational Songs</td>
+        <td style="font-size: 15px;">Watching Youtube</td>
+        <td style="font-size: 15px;">Playing Badminton</td>
+        <td style="font-size: 15px;">Hanging out with Friends</td>
+    </tr>
+   
+</tbody></table>
+
+
+
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
